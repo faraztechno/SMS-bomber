@@ -4,6 +4,7 @@ import os
 from rich import print
 from rich.console import group
 from rich.panel import Panel
+os.system("cls")
 @group()
 def get_panels():
     yield Panel("sms.bomber", style="on blue")
@@ -13,8 +14,6 @@ print(Panel(get_panels()))
 time.sleep(3)
 from rich.console import Console
 console = Console()
-
-os.system("cls")
 console.rule("[bold red] faraztechno")
 console.print ("github : https://github.com/faraztechno" ) 
 Enter =input("enter number:")

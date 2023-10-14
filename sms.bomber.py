@@ -4,7 +4,6 @@ import os
 from rich import print
 from rich.console import group
 from rich.panel import Panel
-os.system("cls")
 @group()
 def get_panels():
     yield Panel("sms.bomber", style="on blue")

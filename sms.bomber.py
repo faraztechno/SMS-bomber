@@ -6,7 +6,7 @@ from rich.console import group
 from rich.panel import Panel
 @group()
 def get_panels():
-    yield Panel("sms.bomber", style="on blue")
+    yield Panel("sms.bomber ver:1.0", style="on blue")
     yield Panel("faraztechno", style="on red")
 
 print(Panel(get_panels()))
